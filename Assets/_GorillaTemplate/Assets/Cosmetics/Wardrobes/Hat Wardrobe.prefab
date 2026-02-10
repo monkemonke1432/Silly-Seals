@@ -1,0 +1,836 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &353040028557917952
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2399547915425621833}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e4f7af27cdd84ea4f930d0818542de09, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4f7af27cdd84ea4f930d0818542de09, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4f7af27cdd84ea4f930d0818542de09, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e4f7af27cdd84ea4f930d0818542de09, type: 3}
+      propertyPath: m_Name
+      value: Hat_Headphones
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e4f7af27cdd84ea4f930d0818542de09, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e4f7af27cdd84ea4f930d0818542de09, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1264767232656697662}
+  m_SourcePrefab: {fileID: 100100000, guid: e4f7af27cdd84ea4f930d0818542de09, type: 3}
+--- !u!4 &246846358006094059 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e4f7af27cdd84ea4f930d0818542de09, type: 3}
+  m_PrefabInstance: {fileID: 353040028557917952}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &587484288140509777 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e4f7af27cdd84ea4f930d0818542de09, type: 3}
+  m_PrefabInstance: {fileID: 353040028557917952}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1264767232656697662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587484288140509777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3001f196d6684694963111c3ad296e39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cosmeticNameOverrides: []
+  _catalog: Cosmetics
+  _itemId: 
+--- !u!1001 &1526470613710901247
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2399547915425621833}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f1858804def4d33459983498c8325326, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f1858804def4d33459983498c8325326, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f1858804def4d33459983498c8325326, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1858804def4d33459983498c8325326, type: 3}
+      propertyPath: m_Name
+      value: Hat_BucketGoogly
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1858804def4d33459983498c8325326, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f1858804def4d33459983498c8325326, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 77465869414234744}
+  m_SourcePrefab: {fileID: 100100000, guid: f1858804def4d33459983498c8325326, type: 3}
+--- !u!4 &1343662114567546900 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f1858804def4d33459983498c8325326, type: 3}
+  m_PrefabInstance: {fileID: 1526470613710901247}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1868559806269403822 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f1858804def4d33459983498c8325326, type: 3}
+  m_PrefabInstance: {fileID: 1526470613710901247}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &77465869414234744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868559806269403822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3001f196d6684694963111c3ad296e39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cosmeticNameOverrides: []
+  _catalog: Cosmetics
+  _itemId: 
+--- !u!1001 &1599048367183671965
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2399547915425621833}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 36815cb11bacde844b34d0c3b3bd5ef4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 36815cb11bacde844b34d0c3b3bd5ef4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 36815cb11bacde844b34d0c3b3bd5ef4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36815cb11bacde844b34d0c3b3bd5ef4, type: 3}
+      propertyPath: m_Name
+      value: Hat_TopHat
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36815cb11bacde844b34d0c3b3bd5ef4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 36815cb11bacde844b34d0c3b3bd5ef4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8677679599853704462}
+  m_SourcePrefab: {fileID: 100100000, guid: 36815cb11bacde844b34d0c3b3bd5ef4, type: 3}
+--- !u!4 &1277420829417395574 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 36815cb11bacde844b34d0c3b3bd5ef4, type: 3}
+  m_PrefabInstance: {fileID: 1599048367183671965}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1941508653507645388 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 36815cb11bacde844b34d0c3b3bd5ef4, type: 3}
+  m_PrefabInstance: {fileID: 1599048367183671965}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8677679599853704462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941508653507645388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3001f196d6684694963111c3ad296e39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cosmeticNameOverrides: []
+  _catalog: Cosmetics
+  _itemId: 
+--- !u!1001 &1947304567186157978
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2399547915425621833}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 0534f92c4c22c7a43b8c55c151ba9fae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0534f92c4c22c7a43b8c55c151ba9fae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0534f92c4c22c7a43b8c55c151ba9fae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0534f92c4c22c7a43b8c55c151ba9fae, type: 3}
+      propertyPath: m_Name
+      value: Hat_VR
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0534f92c4c22c7a43b8c55c151ba9fae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0534f92c4c22c7a43b8c55c151ba9fae, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1794156855482487107}
+  m_SourcePrefab: {fileID: 100100000, guid: 0534f92c4c22c7a43b8c55c151ba9fae, type: 3}
+--- !u!1 &1713442628800695499 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0534f92c4c22c7a43b8c55c151ba9fae, type: 3}
+  m_PrefabInstance: {fileID: 1947304567186157978}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1794156855482487107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713442628800695499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3001f196d6684694963111c3ad296e39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cosmeticNameOverrides: []
+  _catalog: Cosmetics
+  _itemId: 
+--- !u!4 &2057175615762404977 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0534f92c4c22c7a43b8c55c151ba9fae, type: 3}
+  m_PrefabInstance: {fileID: 1947304567186157978}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3791874442603466779
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2399547915425621833}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6b2c20039bf71c841b5b2b08824da816, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6b2c20039bf71c841b5b2b08824da816, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6b2c20039bf71c841b5b2b08824da816, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b2c20039bf71c841b5b2b08824da816, type: 3}
+      propertyPath: m_Name
+      value: Hat_CatEars
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b2c20039bf71c841b5b2b08824da816, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6b2c20039bf71c841b5b2b08824da816, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3311140205180686591}
+  m_SourcePrefab: {fileID: 100100000, guid: 6b2c20039bf71c841b5b2b08824da816, type: 3}
+--- !u!4 &3681069041947932656 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6b2c20039bf71c841b5b2b08824da816, type: 3}
+  m_PrefabInstance: {fileID: 3791874442603466779}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4061710743593954634 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6b2c20039bf71c841b5b2b08824da816, type: 3}
+  m_PrefabInstance: {fileID: 3791874442603466779}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3311140205180686591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4061710743593954634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3001f196d6684694963111c3ad296e39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cosmeticNameOverrides: []
+  _catalog: Cosmetics
+  _itemId: 
+--- !u!1001 &4741083195456508077
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2399547915425621833}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: a85bdb169394aaa478fe38f75fdd4d24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a85bdb169394aaa478fe38f75fdd4d24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a85bdb169394aaa478fe38f75fdd4d24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a85bdb169394aaa478fe38f75fdd4d24, type: 3}
+      propertyPath: m_Name
+      value: Hat_Wizard
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a85bdb169394aaa478fe38f75fdd4d24, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a85bdb169394aaa478fe38f75fdd4d24, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7556530178353401689}
+  m_SourcePrefab: {fileID: 100100000, guid: a85bdb169394aaa478fe38f75fdd4d24, type: 3}
+--- !u!4 &5062344436252358470 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a85bdb169394aaa478fe38f75fdd4d24, type: 3}
+  m_PrefabInstance: {fileID: 4741083195456508077}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5551495634857455100 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a85bdb169394aaa478fe38f75fdd4d24, type: 3}
+  m_PrefabInstance: {fileID: 4741083195456508077}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7556530178353401689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5551495634857455100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3001f196d6684694963111c3ad296e39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cosmeticNameOverrides: []
+  _catalog: Cosmetics
+  _itemId: Hat_Wizard
+--- !u!1001 &4947352519912324819
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2399547915425621833}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d8fb5c08ebdd65942967859d4b27a591, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d8fb5c08ebdd65942967859d4b27a591, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d8fb5c08ebdd65942967859d4b27a591, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d8fb5c08ebdd65942967859d4b27a591, type: 3}
+      propertyPath: m_Name
+      value: Hat_DeelyBoppers
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d8fb5c08ebdd65942967859d4b27a591, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d8fb5c08ebdd65942967859d4b27a591, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3166845328243339056}
+  m_SourcePrefab: {fileID: 100100000, guid: d8fb5c08ebdd65942967859d4b27a591, type: 3}
+--- !u!4 &4837498884277967160 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d8fb5c08ebdd65942967859d4b27a591, type: 3}
+  m_PrefabInstance: {fileID: 4947352519912324819}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5217964660573913986 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d8fb5c08ebdd65942967859d4b27a591, type: 3}
+  m_PrefabInstance: {fileID: 4947352519912324819}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3166845328243339056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5217964660573913986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3001f196d6684694963111c3ad296e39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cosmeticNameOverrides: []
+  _catalog: Cosmetics
+  _itemId: 
+--- !u!1001 &5100649521123530250
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3014788337765940343, guid: ce005539379f9434ebd347b238470142, type: 3}
+      propertyPath: m_text
+      value: Hat
+      objectReference: {fileID: 0}
+    - target: {fileID: 3230395263564394383, guid: ce005539379f9434ebd347b238470142, type: 3}
+      propertyPath: m_Name
+      value: Hat Wardrobe
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252610517986502345, guid: ce005539379f9434ebd347b238470142, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252610517986502345, guid: ce005539379f9434ebd347b238470142, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252610517986502345, guid: ce005539379f9434ebd347b238470142, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252610517986502345, guid: ce005539379f9434ebd347b238470142, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252610517986502345, guid: ce005539379f9434ebd347b238470142, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252610517986502345, guid: ce005539379f9434ebd347b238470142, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252610517986502345, guid: ce005539379f9434ebd347b238470142, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252610517986502345, guid: ce005539379f9434ebd347b238470142, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252610517986502345, guid: ce005539379f9434ebd347b238470142, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252610517986502345, guid: ce005539379f9434ebd347b238470142, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7459594490759393603, guid: ce005539379f9434ebd347b238470142, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7605918058670490746}
+    - targetCorrespondingSourceObject: {fileID: 7459594490759393603, guid: ce005539379f9434ebd347b238470142, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1343662114567546900}
+    - targetCorrespondingSourceObject: {fileID: 7459594490759393603, guid: ce005539379f9434ebd347b238470142, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3681069041947932656}
+    - targetCorrespondingSourceObject: {fileID: 7459594490759393603, guid: ce005539379f9434ebd347b238470142, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4837498884277967160}
+    - targetCorrespondingSourceObject: {fileID: 7459594490759393603, guid: ce005539379f9434ebd347b238470142, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 246846358006094059}
+    - targetCorrespondingSourceObject: {fileID: 7459594490759393603, guid: ce005539379f9434ebd347b238470142, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6323569991545459458}
+    - targetCorrespondingSourceObject: {fileID: 7459594490759393603, guid: ce005539379f9434ebd347b238470142, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5925477763176413766}
+    - targetCorrespondingSourceObject: {fileID: 7459594490759393603, guid: ce005539379f9434ebd347b238470142, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6235165896497527266}
+    - targetCorrespondingSourceObject: {fileID: 7459594490759393603, guid: ce005539379f9434ebd347b238470142, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6717412089086165583}
+    - targetCorrespondingSourceObject: {fileID: 7459594490759393603, guid: ce005539379f9434ebd347b238470142, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1277420829417395574}
+    - targetCorrespondingSourceObject: {fileID: 7459594490759393603, guid: ce005539379f9434ebd347b238470142, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2057175615762404977}
+    - targetCorrespondingSourceObject: {fileID: 7459594490759393603, guid: ce005539379f9434ebd347b238470142, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5062344436252358470}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce005539379f9434ebd347b238470142, type: 3}
+--- !u!4 &2399547915425621833 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7459594490759393603, guid: ce005539379f9434ebd347b238470142, type: 3}
+  m_PrefabInstance: {fileID: 5100649521123530250}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5785837005965260009
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2399547915425621833}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 1e83a70dc99b01442b4d7aa963b0c173, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1e83a70dc99b01442b4d7aa963b0c173, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1e83a70dc99b01442b4d7aa963b0c173, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1e83a70dc99b01442b4d7aa963b0c173, type: 3}
+      propertyPath: m_Name
+      value: Hat_HornsDevil
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1e83a70dc99b01442b4d7aa963b0c173, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1e83a70dc99b01442b4d7aa963b0c173, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7379198524633185060}
+  m_SourcePrefab: {fileID: 100100000, guid: 1e83a70dc99b01442b4d7aa963b0c173, type: 3}
+--- !u!4 &6323569991545459458 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1e83a70dc99b01442b4d7aa963b0c173, type: 3}
+  m_PrefabInstance: {fileID: 5785837005965260009}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6668148571081230776 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1e83a70dc99b01442b4d7aa963b0c173, type: 3}
+  m_PrefabInstance: {fileID: 5785837005965260009}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7379198524633185060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6668148571081230776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3001f196d6684694963111c3ad296e39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cosmeticNameOverrides: []
+  _catalog: Cosmetics
+  _itemId: 
+--- !u!1001 &5840459692876242441
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2399547915425621833}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 41db50a643c8b144d8e4022e8b80ec2e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 41db50a643c8b144d8e4022e8b80ec2e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 41db50a643c8b144d8e4022e8b80ec2e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 41db50a643c8b144d8e4022e8b80ec2e, type: 3}
+      propertyPath: m_Name
+      value: Hat_ParkingCone
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 41db50a643c8b144d8e4022e8b80ec2e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 41db50a643c8b144d8e4022e8b80ec2e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6248850232358842373}
+  m_SourcePrefab: {fileID: 100100000, guid: 41db50a643c8b144d8e4022e8b80ec2e, type: 3}
+--- !u!4 &6235165896497527266 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 41db50a643c8b144d8e4022e8b80ec2e, type: 3}
+  m_PrefabInstance: {fileID: 5840459692876242441}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6758797981617300312 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 41db50a643c8b144d8e4022e8b80ec2e, type: 3}
+  m_PrefabInstance: {fileID: 5840459692876242441}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6248850232358842373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6758797981617300312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3001f196d6684694963111c3ad296e39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cosmeticNameOverrides: []
+  _catalog: Cosmetics
+  _itemId: Hat_ParkingCone
+--- !u!1001 &6174786782256061869
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2399547915425621833}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c06456a91cfeec9499401b3e8e369ed0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c06456a91cfeec9499401b3e8e369ed0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c06456a91cfeec9499401b3e8e369ed0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c06456a91cfeec9499401b3e8e369ed0, type: 3}
+      propertyPath: m_Name
+      value: Hat_HornsRam
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c06456a91cfeec9499401b3e8e369ed0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c06456a91cfeec9499401b3e8e369ed0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6374337145457931381}
+  m_SourcePrefab: {fileID: 100100000, guid: c06456a91cfeec9499401b3e8e369ed0, type: 3}
+--- !u!4 &5925477763176413766 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c06456a91cfeec9499401b3e8e369ed0, type: 3}
+  m_PrefabInstance: {fileID: 6174786782256061869}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6444745680940130556 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c06456a91cfeec9499401b3e8e369ed0, type: 3}
+  m_PrefabInstance: {fileID: 6174786782256061869}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6374337145457931381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6444745680940130556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3001f196d6684694963111c3ad296e39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cosmeticNameOverrides: []
+  _catalog: Cosmetics
+  _itemId: Hat_HornsRam
+--- !u!1001 &6535765160606836132
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2399547915425621833}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ed0ea84b30f031d4087848a88b285ede, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed0ea84b30f031d4087848a88b285ede, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed0ea84b30f031d4087848a88b285ede, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ed0ea84b30f031d4087848a88b285ede, type: 3}
+      propertyPath: m_Name
+      value: Hat_RubberDuck
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ed0ea84b30f031d4087848a88b285ede, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ed0ea84b30f031d4087848a88b285ede, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6614819472459035411}
+  m_SourcePrefab: {fileID: 100100000, guid: ed0ea84b30f031d4087848a88b285ede, type: 3}
+--- !u!1 &6229281035403991285 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ed0ea84b30f031d4087848a88b285ede, type: 3}
+  m_PrefabInstance: {fileID: 6535765160606836132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6614819472459035411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6229281035403991285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3001f196d6684694963111c3ad296e39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cosmeticNameOverrides: []
+  _catalog: Cosmetics
+  _itemId: Hat_RubberDuck
+--- !u!4 &6717412089086165583 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ed0ea84b30f031d4087848a88b285ede, type: 3}
+  m_PrefabInstance: {fileID: 6535765160606836132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7928340098867127185
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2399547915425621833}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c7735836d79c5a84996e5d4fdf83ce56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c7735836d79c5a84996e5d4fdf83ce56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c7735836d79c5a84996e5d4fdf83ce56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7735836d79c5a84996e5d4fdf83ce56, type: 3}
+      propertyPath: m_Name
+      value: Hat_BaseballCap
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7735836d79c5a84996e5d4fdf83ce56, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c7735836d79c5a84996e5d4fdf83ce56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4985870677076264002}
+  m_SourcePrefab: {fileID: 100100000, guid: c7735836d79c5a84996e5d4fdf83ce56, type: 3}
+--- !u!1 &7117506560606658240 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c7735836d79c5a84996e5d4fdf83ce56, type: 3}
+  m_PrefabInstance: {fileID: 7928340098867127185}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4985870677076264002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7117506560606658240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3001f196d6684694963111c3ad296e39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cosmeticNameOverrides: []
+  _catalog: Cosmetics
+  _itemId: 
+--- !u!4 &7605918058670490746 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c7735836d79c5a84996e5d4fdf83ce56, type: 3}
+  m_PrefabInstance: {fileID: 7928340098867127185}
+  m_PrefabAsset: {fileID: 0}

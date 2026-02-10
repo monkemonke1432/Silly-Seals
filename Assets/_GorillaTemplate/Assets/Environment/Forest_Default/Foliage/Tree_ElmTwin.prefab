@@ -1,0 +1,489 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7946832106739735765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4988040101449132194}
+  m_Layer: 0
+  m_Name: Tree_ElmTwin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4988040101449132194
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7946832106739735765}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5449454114219894998}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5488446320788328253
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4988040101449132194}
+    m_Modifications:
+    - target: {fileID: -9162997170225257982, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -9162997170225257982, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_TagString
+      value: Wood Surface
+      objectReference: {fileID: 0}
+    - target: {fileID: -9162997170225257982, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -8977612153587159645, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: -8831816222646901120, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: -8785948981209237526, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: -8679921383154817045, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8008786645224106200, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a721b7535d126034184de844b070359f, type: 2}
+    - target: {fileID: -7414059390536156487, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: -6871464960124562975, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a721b7535d126034184de844b070359f, type: 2}
+    - target: {fileID: -6724193826209270281, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -6724193826209270281, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_TagString
+      value: Wood Surface
+      objectReference: {fileID: 0}
+    - target: {fileID: -6724193826209270281, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -6405104625354799884, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -6405104625354799884, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_TagString
+      value: Wood Surface
+      objectReference: {fileID: 0}
+    - target: {fileID: -6405104625354799884, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -6368312057511282280, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a721b7535d126034184de844b070359f, type: 2}
+    - target: {fileID: -5937718885675473013, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -5937718885675473013, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_TagString
+      value: Wood Surface
+      objectReference: {fileID: 0}
+    - target: {fileID: -5937718885675473013, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -5787403565964138216, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -5787403565964138216, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_TagString
+      value: Wood Surface
+      objectReference: {fileID: 0}
+    - target: {fileID: -5787403565964138216, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -5765933698605905285, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -5765933698605905285, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_TagString
+      value: Wood Surface
+      objectReference: {fileID: 0}
+    - target: {fileID: -5765933698605905285, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -5740339354021316236, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: -5727411099290742036, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: -5599528830382078150, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -5599528830382078150, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_TagString
+      value: Wood Surface
+      objectReference: {fileID: 0}
+    - target: {fileID: -5599528830382078150, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -5523759533391309611, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: -5466330642415092684, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: -5371428649499632994, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: -5256115512880994492, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -5256115512880994492, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_TagString
+      value: Wood Surface
+      objectReference: {fileID: 0}
+    - target: {fileID: -5256115512880994492, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -4727993879073812801, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -4727993879073812801, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_TagString
+      value: Wood Surface
+      objectReference: {fileID: 0}
+    - target: {fileID: -4727993879073812801, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -4550320912583779448, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a721b7535d126034184de844b070359f, type: 2}
+    - target: {fileID: -3909097832624442712, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -3909097832624442712, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_TagString
+      value: Wood Surface
+      objectReference: {fileID: 0}
+    - target: {fileID: -3909097832624442712, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -3737027864758539480, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: -3194188629093582352, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -3194188629093582352, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_TagString
+      value: Wood Surface
+      objectReference: {fileID: 0}
+    - target: {fileID: -3194188629093582352, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -3072050985601054226, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: -2860627990247581294, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: -2759604352328636898, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2759604352328636898, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_TagString
+      value: Wood Surface
+      objectReference: {fileID: 0}
+    - target: {fileID: -2759604352328636898, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -2705340627720234182, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: -2618598942986762397, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: -2474847284754452206, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: -827396139915421873, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: -144682734798445405, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -144682734798445405, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_TagString
+      value: Wood Surface
+      objectReference: {fileID: 0}
+    - target: {fileID: -144682734798445405, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 89044630032360285, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a721b7535d126034184de844b070359f, type: 2}
+    - target: {fileID: 919132149155446097, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_Name
+      value: Tree_ElmTwin
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112576101960630366, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: 1129494540539221983, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: 1741050545847928175, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: 2821825287529372403, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a721b7535d126034184de844b070359f, type: 2}
+    - target: {fileID: 2867131822790054796, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a721b7535d126034184de844b070359f, type: 2}
+    - target: {fileID: 2911522511907471542, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a721b7535d126034184de844b070359f, type: 2}
+    - target: {fileID: 3490645750124514443, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: 3553893008216990563, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a721b7535d126034184de844b070359f, type: 2}
+    - target: {fileID: 3930171526429317206, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a721b7535d126034184de844b070359f, type: 2}
+    - target: {fileID: 4343475567268790933, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: 4692090765377816657, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: 4734879255145749534, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a721b7535d126034184de844b070359f, type: 2}
+    - target: {fileID: 5073740522723978512, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073740522723978512, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_TagString
+      value: Wood Surface
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073740522723978512, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5110885025456718850, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: 5279677027153498042, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: 5486784366444369162, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a721b7535d126034184de844b070359f, type: 2}
+    - target: {fileID: 6306130724005923804, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a721b7535d126034184de844b070359f, type: 2}
+    - target: {fileID: 6313793116760782976, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: 6913325615426598525, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a721b7535d126034184de844b070359f, type: 2}
+    - target: {fileID: 7449189856491987186, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: 7449604315471640125, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7449604315471640125, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_TagString
+      value: Wood Surface
+      objectReference: {fileID: 0}
+    - target: {fileID: 7449604315471640125, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496508403967199231, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: 7936960505538429435, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a721b7535d126034184de844b070359f, type: 2}
+    - target: {fileID: 8039553840497055316, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: 8274289655730610499, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274289655730610499, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_TagString
+      value: Wood Surface
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274289655730610499, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8342290582101356723, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8342290582101356723, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_TagString
+      value: Wood Surface
+      objectReference: {fileID: 0}
+    - target: {fileID: 8342290582101356723, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8489320946808732824, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: 8753255968054368971, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a721b7535d126034184de844b070359f, type: 2}
+    - target: {fileID: 9029358149499531208, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea9bfbef9d3e00045a76e1d5b35ff087, type: 2}
+    - target: {fileID: 9106628641190242044, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a721b7535d126034184de844b070359f, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: -4932996029181736784, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+--- !u!4 &5449454114219894998 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fd2a9d2fb1e0d5b4b8c07020e80e1d6e, type: 3}
+  m_PrefabInstance: {fileID: 5488446320788328253}
+  m_PrefabAsset: {fileID: 0}

@@ -70,6 +70,31 @@ namespace Normal.GorillaTemplate.UI.Computer {
                 return;
 
             LocalPlayerData.playerName = playerName;
+            
+            // ADDED: Sync the in-game name to PlayFab display name
+            UpdatePlayFabDisplayName(playerName);
+        }
+        
+        /// <summary>
+        /// Updates the PlayFab display name to match the in-game name.
+        /// </summary>
+        private void UpdatePlayFabDisplayName(string playerName) {
+            if (!PlayFab.PlayFabClientAPI.IsClientLoggedIn()) {
+                UnityEngine.Debug.LogWarning("Cannot update PlayFab display name: Not logged in.");
+                return;
+            }
+            
+            PlayFab.PlayFabClientAPI.UpdateUserTitleDisplayName(
+                new PlayFab.ClientModels.UpdateUserTitleDisplayNameRequest {
+                    DisplayName = playerName,
+                },
+                result => {
+                    UnityEngine.Debug.Log($"PlayFab display name updated to: {playerName}");
+                },
+                error => {
+                    UnityEngine.Debug.LogError($"Failed to update PlayFab display name: {error.GenerateErrorReport()}");
+                }
+            );
         }
 
         private bool ValidateName(string playerName) {
